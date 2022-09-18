@@ -9,6 +9,6 @@ sudo apt install google-chrome-stable fish python3 python3-pip python3-venv htop
 sudo snap refresh
 sudo snap install telegram-desktop skype
 sudo snap refresh
-pip3 install keras tensorflow torch jupyter pandas regex scipy seaborn Flask pyspark peewee sklearn opencv-python peewee python-dotenv
+pip3 install keras tensorflow torch jupyter pandas regex scipy seaborn Flask pyspark peewee sklearn opencv-python peewee python-dotenv websocket
 sudo apt autoremove
 chsh -s '/usr/bin/fish'
