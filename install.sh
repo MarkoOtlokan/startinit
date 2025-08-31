@@ -10,6 +10,8 @@ sudo snap refresh
 sudo snap install telegram-desktop
 sudo snap install slack
 sudo snap refresh
+export PIP_BREAK_SYSTEM_PACKAGES=1
+source ~/.bashrc
 pip3 install keras tensorflow torch jupyter pandas scipy seaborn pyspark
 sudo apt autoremove
 chsh -s '/usr/bin/fish'
