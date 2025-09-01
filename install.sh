@@ -5,7 +5,7 @@ echo 'deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main' | sud
 sudo apt update
 sudo apt upgrade
 sudo apt remove gnome-shell-extension-ubuntu-dock
-sudo apt install google-chrome-stable fish python3 python3-pip htop screenfetch net-tools mpv unp gparted openssh-server libreoffice simplescreenrecorder  qbittorrent chrome-gnome-shell glmark2 nvtop p7zip-full
+sudo apt install git google-chrome-stable fish python3 python3-pip htop screenfetch net-tools mpv unp gparted openssh-server libreoffice simplescreenrecorder  qbittorrent chrome-gnome-shell glmark2 nvtop p7zip-full
 sudo snap refresh
 sudo snap install telegram-desktop
 sudo snap install slack
